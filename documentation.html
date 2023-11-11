@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en">
+<head>
+    <title>Hanna's Knitto</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css"/>
+    </noscript>
+</head>
+<body class="is-preload">
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="inner">
+
+            <!-- Logo -->
+            <a href="/Home/" class="logo">
+                <span class="symbol"><img src="images/logo.svg" alt=""/></span><span class="title">Hanna Bui</span>
+            </a>
+
+            <!-- Nav -->
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- Menu -->
+    <nav id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="/Home/">Home</a></li>
+            <li><a href="/Home/knitto">Knitto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main -->
+    <div id="main">
+        <div class="inner">
+            <h1>Knitto Documentation</h1>
+
+            <h2>Introduction</h2>
+
+            <p>Knitto is a web-based knitting pattern parser that transforms your written knitting instructions into organized spreadsheets and visual charts. This documentation will guide you through the simple process of using the app, customizing patterns, and taking advantage of its advanced features.</p>
+
+            <h2>Getting Started</h2>
+
+            <h3>Pattern Input</h3>
+
+            <p>To start, simply visit the app's website and enter the name of your pattern along with the written
+                instructions
+                into the provided textarea. Ensure that your instructions follow the specified format:</p>
+
+            <ul>
+                <li>Single Row: "Row [number]: [stitch][number], [stitch][number], ...".</li>
+                <li>Repeating Rows: "Rows [first row] to [last row]: repeat rows [first row to repeat from]-[last row to repeat from]".
+                </li>
+                <li>Repeating Stitches: "Row [number]: ..., *[stitch][number], ..., repeat from * to last [number] sts, ...".
+                </li>
+            </ul>
+
+            <p>Make sure to increment the row number consistently, and use the correct format for repeating stitches and
+                rows.</p>
+
+            <h3>Customization</h3>
+
+            <p>Once uploaded, you can customize your pattern further, adjusting stitches, rows, and repetitions as needed.</p>
+
+            <h2>Basic Usage</h2>
+
+            <h3>Visualizing Patterns</h3>
+
+            <p>Your pattern will be visualized on an Excel or CSV spreadsheet, and a chart will be generated on the web for your convenience. An option is available for users to keep track of their current row while working on their knitting projects.</p>
+
+            <h2>Advanced Features</h2>
+
+            <h3>Repeating Rows</h3>
+
+            <p>Take advantage of the advanced feature to use repeating rows multiple times throughout your pattern, providing flexibility and efficiency in your knitting projects.</p>
+
+            <h2>File Format</h2>
+
+            <h3>Download</h3>
+
+            <p>Download your visualized knitting pattern in CSV format for easy sharing or printing.</p>
+
+            <h2>FAQs</h2>
+
+            <h3>Missing Row Numbers</h3>
+
+            <p>Ensure that your written instructions include an incrementing row number for each row to maintain accurate pattern visualization. Missing row numbers may result in incorrect output.</p>
+
+            <h3>Stitch Abbreviations</h3>
+
+            <ul>
+                <li>Abbreviations of knit and purl must be followed by a number.</li>
+                <li>When using the word version of knit and purl, the program will knit/purl the same amount of stitches as the previous row.
+                </li>
+                <li>Other stitches don't require a number after the stitch abbreviation.</li>
+            </ul>
+
+            <h3>Repeating Stitches</h3>
+
+            <ul>
+                <li>Repeating stitches must be written in a single row format and can only be used once per row.</li>
+                <li>The format is "Row [number]: ..., *[stitch][number], ..., repeat from * to last [number] sts, ..." or "Row [number]: ..., *[stitch][number], ..., repeat from * to last st, ...".
+                </li>
+            </ul>
+
+            <h2>Feedback</h2>
+
+            <p>We value your feedback! If you encounter issues or have suggestions for improvement, please let us know.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <section>
+                <h2>Get in touch</h2>
+                <form method="post" action="#">
+                    <div class="fields">
+                        <div class="field half">
+                            <input type="text" name="name" id="name" placeholder="Name"/>
+                        </div>
+                        <div class="field half">
+                            <input type="email" name="email" id="email" placeholder="Email"/>
+                        </div>
+                        <div class="field">
+                            <textarea name="message" id="message" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <ul class="actions">
+                        <li><input type="submit" value="Send" class="primary"/></li>
+                    </ul>
+                </form>
+            </section>
+            <section>
+                <h2>Follow</h2>
+                <ul class="icons">
+                    <li><a href="https://github.com/hanna-bui" class="icon brands style2 fa-github"><span class="label">GitHub</span></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/hanna-bui/" class="icon brands style2 fa-linkedin"><span
+                            class="label">Linkedin</span></a></li>
+                    <li><a href="mailto:buih@uwindsor.ca" class="icon solid style2 fa-envelope"><span class="label">Email</span></a>
+                    </li>
+                </ul>
+            </section>
+            <ul class="copyright">
+                <li>&copy; Untitled. All rights reserved</li>
+                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
