@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62cc9808-e8ec-4eb2-a0ff-b410d9f0bb86" name="Changes" comment="otherfiles">
+    <list default="true" id="62cc9808-e8ec-4eb2-a0ff-b410d9f0bb86" name="Changes" comment="changing url link to knitto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/documentation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knitto.html" beforeDir="false" afterPath="$PROJECT_DIR$/knitto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,8 @@
       <workItem from="1699741961183" duration="574000" />
       <workItem from="1699742771127" duration="13000" />
       <workItem from="1699744494322" duration="389000" />
-      <workItem from="1699744988509" duration="553000" />
+      <workItem from="1699744988509" duration="690000" />
+      <workItem from="1699915433221" duration="62000" />
     </task>
     <task id="LOCAL-00001" summary="initial append">
       <option name="closed" value="true" />
@@ -120,7 +120,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699744819700</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding a disclaimer to avoid infringe on any copyright">
+      <option name="closed" value="true" />
+      <created>1699745606181</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699745606181</updated>
+    </task>
+    <task id="LOCAL-00005" summary="changing url link to knitto">
+      <option name="closed" value="true" />
+      <created>1699745677048</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699745677048</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +146,8 @@
     <MESSAGE value="initial append" />
     <MESSAGE value="adding a documentation html" />
     <MESSAGE value="otherfiles" />
-    <option name="LAST_COMMIT_MESSAGE" value="otherfiles" />
+    <MESSAGE value="adding a disclaimer to avoid infringe on any copyright" />
+    <MESSAGE value="changing url link to knitto" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing url link to knitto" />
   </component>
 </project>
